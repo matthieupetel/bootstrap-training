@@ -1,0 +1,62 @@
+{
+  "name": "openclass-bootstrap",
+  "description": "Openclass Bootstrap",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Matthieu PETEL <matthieu.petel@gmail.com> (https://matthieupetel.fr/)",
+  "license": "UNLICENSED",
+  "private": true,
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "Firefox ESR",
+    "not dead",
+    "not op_mini all",
+    "unreleased chrome versions",
+    "unreleased edge versions",
+    "unreleased firefox versions"
+  ],
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint",
+    "eslint-fix": "./node_modules/.bin/eslint --fix",
+    "stylelint": "./node_modules/.bin/stylelint src/scss/**/*.scss",
+    "stylelint-fix": "./node_modules/.bin/stylelint src/scss/**/*.scss --fix",
+    "prod": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "dev-watch": "webpack --mode=development --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "autoprefixer": "^10.2.4",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.0-beta.6",
+    "bootstrap-sass": "^3.4.1",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-recommended": "^4.0.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-compat": "^3.5.1",
+    "file-loader": "^6.0.0",
+    "group-css-media-queries-loader": "^3.0.2",
+    "mini-css-extract-plugin": "^1.3.5",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "sass-loader": "^11.0.0",
+    "style-loader": "^2.0.0",
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-no-unsupported-browser-features": "^4.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.14.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

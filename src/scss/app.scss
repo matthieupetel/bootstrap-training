@@ -1,0 +1,21 @@
+// ============================================================
+// APP
+// ============================================================
+//
+// This file imports the project style files.
+//
+
+//Project abstract styles
+
+@import "partials/bootstrap/variables";
+
+// Bootstrap abstract styles
+// Variables
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+// Mixins
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+
+// Bootstrap framework
+@import "partials/bootstrap/bootstrap-imports";

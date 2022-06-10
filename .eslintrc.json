@@ -1,0 +1,42 @@
+{
+  "env": {
+    "amd": true,
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:compat/recommended",
+    "google"
+  ],
+  "ignorePatterns": [
+    "dist/**"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "compat/compat": "warn",
+    "indent": [
+      "error",
+      2
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "no-console": "off",
+    "no-trailing-spaces": [
+      "error",
+      {
+        "ignoreComments": true
+      }
+    ],
+    "operator-linebreak": ["error", "before"]
+  }
+}
